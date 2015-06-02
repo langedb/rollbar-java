@@ -21,6 +21,18 @@
         <url>https://repo.uchicago.edu/nexus/content/repositories/releases</url>
       </repository>
    </repositories>
+   <distributionManagement>
+	   <repository>
+		   <id>repo-idm</id>
+		   <name>Internal Releases</name>
+		   <url>https://repo.uchicago.edu/nexus/content/repositories/releases</url>
+	   </repository>
+	   <snapshotRepository>
+		   <id>repo-idm</id>
+		   <name>Internal Releases</name>
+		   <url>https://repo.uchicago.edu/nexus/content/repositories/snapshots</url>
+	   </snapshotRepository>
+   </distributionManagement>
     <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
   </properties>
