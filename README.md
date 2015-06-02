@@ -7,12 +7,6 @@ This is the notifier library for integrating Java apps with [Rollbar](https://ro
 Setup
 -------------
 
-You need to add these libraries from the [release] (https://github.com/rafael-munoz/rollbar-java/releases/download/v0.1/rollbar-java-v0.1.zip) to your classpath:
- * rollbar-java-0.1
- * log4j-1.2.14
- * json-20120521
-
-
 The easy way to use the rollbar notifier is configuring a Log4j appender. Otherwise if you don't use log4j you can use the rollbar notifier directly with a very simple API.
 
 Log4j

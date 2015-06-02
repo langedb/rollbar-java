@@ -1,4 +1,4 @@
-package com.muantech.rollbar.java;
+package edu.uchicago.identity.rollbar;
 
 import java.net.MalformedURLException;
 import java.net.URL;
